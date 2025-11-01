@@ -41,6 +41,7 @@
         .navbar.scrolled {
             background: rgba(10, 10, 10, 0.95);
             box-shadow: 0 4px 20px rgba(0, 255, 255, 0.1);
+            padding: 0.7rem 2rem;
         }
 
         .nav-container {
@@ -52,13 +53,26 @@
         }
 
         .logo {
-            font-size: 1.5rem;
+            display: flex;
+            align-items: center;
+            font-size: 1.4rem;
             font-weight: 700;
             background: linear-gradient(45deg, #00ffff, #0080ff, #8000ff);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-clip: text;
+            gap:8px
         }
+
+         .logo img {
+      height: 45px; /* Adjust this value as per navbar height */
+      width: auto;
+      object-fit: contain;
+      transition: all 0.3s ease;
+      }
+       .navbar.scrolled .logo img {
+        height: 100px;
+       }
 
         .nav-links {
             display: flex;
