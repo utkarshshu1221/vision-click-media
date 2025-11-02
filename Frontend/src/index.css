@@ -1,0 +1,144 @@
+@import "tailwindcss";
+
+/* Define your theme tokens here */
+@theme {
+  --font-poppins: "Poppins", sans-serif;
+
+  --color-primary: #00ffff;
+  --color-secondary: #0080ff;
+  --color-accent: #8000ff;
+  --color-text: #ffffff;
+
+  --color-bgdark1: #0a0a0a;
+  --color-bgdark2: #1a1a2e;
+  --color-bgdark3: #16213e;
+
+  --shadow-glow: 0 15px 35px rgba(0, 255, 255, 0.4);
+  --shadow-card: 0 15px 30px rgba(0, 255, 255, 0.2);
+}
+
+/* Base layer overrides */
+@layer base {
+  html {
+    font-family: var(--font-poppins);
+    scroll-behavior: smooth;
+  }
+  body {
+    background: linear-gradient(
+      135deg,
+      var(--color-bgdark1) 0%,
+      var(--color-bgdark2) 50%,
+      var(--color-bgdark3) 100%
+    );
+    color: var(--color-text);
+  }
+}
+
+/* Components layer for reusable classes */
+@layer components {
+  .btn-primary {
+    @apply px-6 py-3 rounded-full font-semibold text-white transition;
+    background: linear-gradient(45deg, var(--color-primary), var(--color-secondary));
+    box-shadow: var(--shadow-glow);
+  }
+  .btn-primary:hover {
+    transform: translateY(-3px);
+  }
+
+  .btn-secondary {
+    @apply px-6 py-3 rounded-full font-semibold border-2 transition;
+    border-color: var(--color-primary);
+    color: var(--color-primary);
+  }
+  .btn-secondary:hover {
+    background: var(--color-primary);
+    color: black;
+  }
+
+  .section-title {
+    @apply text-center font-bold mb-12;
+    font-size: 2.5rem;
+    background: linear-gradient(45deg, white, var(--color-primary));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
+
+/* Utilities layer for custom shadows */
+@layer utilities {
+  .shadow-glow {
+    box-shadow: var(--shadow-glow);
+  }
+  .shadow-card {
+    box-shadow: var(--shadow-card);
+  }
+}
+
+/* :root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+} */
