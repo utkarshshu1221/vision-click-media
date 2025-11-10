@@ -5,7 +5,6 @@ import { Link } from "react-router-dom";
 export default function Hero() {
   return (
     <section className="hero">
-      <div className="hero-bg"></div>
       <ParticleBackground />
       <div className="hero-content">
         <h1 className="hero-title">Empowering Businesses Through Code & Creativity</h1>
