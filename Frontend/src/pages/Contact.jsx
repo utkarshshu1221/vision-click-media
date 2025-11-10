@@ -68,6 +68,22 @@ export default function Contact() {
           </div>
         </div>
       </div>
+      {/* Map Location */}
+      <div className="container" style={{ marginTop: "3rem" }}>
+        <h3 style={{ color: "#00ffff", marginBottom: "1rem" }}>Our Location</h3>
+        <div style={{ width: "100%", overflow: "hidden", borderRadius: "12px", border: "1px solid rgba(0,255,255,0.2)" }}>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3597.3820816392517!2d85.05578760000002!3d25.625441600000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ed5657f2719701%3A0x390ffba0c38b8ae8!2sGola%20Rd%2C%20Patna%2C%20Danapur%2C%20Bihar%20801503!5e0!3m2!1sen!2sin!4v1762783094306!5m2!1sen!2sin"
+            width="100%"
+            height="450"
+            style={{ border: 0 }}
+            allowFullScreen
+            loading="lazy"
+            referrerPolicy="no-referrer-when-downgrade"
+            title="VisionClick Media Location"
+          ></iframe>
+        </div>
+      </div>
     </>
   );
 }
