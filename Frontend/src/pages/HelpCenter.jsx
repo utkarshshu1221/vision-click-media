@@ -7,7 +7,7 @@ export default function HelpCenter() {
       <SEO
         title="Help Center | VisionClick Media"
         description="Get help and support for VisionClick Media services. Find answers to frequently asked questions and contact our support team."
-        url="https://visionclickmidea.com/help-center"
+        url="https://visionclickmedia.digital/help-center"
       />
       <div className="page-content">
         <div className="container">

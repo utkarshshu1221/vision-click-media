@@ -26,9 +26,9 @@ export default function Portfolio() {
   return (
     <>
       <SEO
-        title="Portfolio | VisionClick Midea"
+        title="Portfolio | VisionClick Media"
         description="Explore recent projects across web, mobile, ecommerce, and marketing."
-        url="https://visionclickmidea.com/portfolio"
+        url="https://visionclickmedia.digital/portfolio"
       />
       <div className="page-content">
         <div className="container">

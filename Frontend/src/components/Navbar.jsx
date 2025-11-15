@@ -112,7 +112,7 @@ export default function Navbar() {
 //       <div className="nav-container">
 //         <div className="logo" id="companyName">
 //           <img src={logo} alt="logo" />
-//           VisionClick Midea
+//           VisionClick Media
 //         </div>
 
 //         <ul className="nav-links" style={{ display: open ? "flex" : "" }}>

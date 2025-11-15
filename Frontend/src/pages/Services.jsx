@@ -102,9 +102,9 @@ export default function Services() {
   return (
     <>
       <SEO
-        title="Services | VisionClick Midea"
+        title="Services | VisionClick Media"
         description="Full-stack web, app, ecommerce, and marketing services tailored to your growth."
-        url="https://visionclickmidea.com/services"
+        url="https://visionclickmedia.digital/services"
       />
       <div className="page-content">
         <div className="container">

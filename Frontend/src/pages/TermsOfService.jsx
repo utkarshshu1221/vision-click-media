@@ -7,7 +7,7 @@ export default function TermsOfService() {
       <SEO
         title="Terms of Service | VisionClick Media"
         description="Terms of Service for VisionClick Media - Read our terms and conditions for using our services."
-        url="https://visionclickmidea.com/terms-of-service"
+        url="https://visionclickmedia.digital/terms-of-service"
       />
       <div className="page-content">
         <div className="container">

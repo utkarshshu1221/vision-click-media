@@ -3,7 +3,7 @@ export default function Footer() {
     <footer className="footer">
       <div className="footer-content">
         <div className="footer-section">
-          <h3 id="footerCompanyName">VisionClick Midea</h3>
+          <h3 id="footerCompanyName">VisionClick Media</h3>
           <p>We are a passionate team of developers, designers, and digital marketers dedicated to helping businesses thrive in the digital world.</p>
           <div className="social-links">
             <a href="https://www.facebook.com/profile.php?id=61580651744940" title="Facebook" target="_blank" rel="noopener noreferrer">
@@ -61,7 +61,7 @@ export default function Footer() {
         </div>
       </div>
       <div className="footer-bottom">
-        <p>2025 © <span id="footerCompanyName2">VisionClick Midea</span>. All Rights Reserved.</p>
+        <p>2025 © <span id="footerCompanyName2">VisionClick Media@utkarsh</span>. All Rights Reserved.</p>
       </div>
     </footer>
   );

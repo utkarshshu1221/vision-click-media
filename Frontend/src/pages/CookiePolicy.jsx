@@ -7,7 +7,7 @@ export default function CookiePolicy() {
       <SEO
         title="Cookie Policy | VisionClick Media"
         description="Cookie Policy for VisionClick Media - Learn about how we use cookies and similar technologies on our website."
-        url="https://visionclickmidea.com/cookie-policy"
+        url="https://visionclickmedia.digital/cookie-policy"
       />
       <div className="page-content">
         <div className="container">

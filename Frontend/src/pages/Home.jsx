@@ -7,9 +7,9 @@ export default function Home() {
   return (
     <>
       <SEO
-        title="VisionClick Midea | Home"
+        title="VisionClick Media | Home"
         description="Empowering businesses through code & creativity — modern web, app, and marketing solutions."
-        url="https://visionclickmidea.com/"
+        url="https://visionclickmedia.digital/"
       />
       <div className="page-content">
         <Hero />

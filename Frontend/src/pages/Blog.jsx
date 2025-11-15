@@ -14,9 +14,9 @@ export default function Blog() {
   return (
     <>
       <SEO
-        title="Blog | VisionClick Midea"
+        title="Blog | VisionClick Media"
         description="Latest insights on web development, marketing, performance, and design."
-        url="https://visionclickmidea.com/blog"
+        url="https://visionclickmedia.digital/blog"
       />
       <div className="page-content">
         <div className="container">

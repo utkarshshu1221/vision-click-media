@@ -6,9 +6,9 @@ export default function Contact() {
   return (
     <>
       <SEO
-        title="Contact | VisionClick Midea"
-        description="Start your project—reach out to VisionClick Midea today."
-        url="https://visionclickmidea.com/contact"
+        title="Contact | VisionClick Media"
+        description="Start your project—reach out to VisionClick Media today."
+        url="https://visionclickmedia.digital/contact"
       />
       <div className="page-content">
         <div className="container">

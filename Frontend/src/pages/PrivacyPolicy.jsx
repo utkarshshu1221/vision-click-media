@@ -7,7 +7,7 @@ export default function PrivacyPolicy() {
       <SEO
         title="Privacy Policy | VisionClick Media"
         description="Privacy Policy for VisionClick Media - Learn how we collect, use, and protect your personal information."
-        url="https://visionclickmidea.com/privacy-policy"
+        url="https://visionclickmedia.digital/privacy-policy"
       />
       <div className="page-content">
         <div className="container">
