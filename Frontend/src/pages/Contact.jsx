@@ -33,7 +33,7 @@ export default function Contact() {
                 <div className="contact-icon">📞</div>
                 <div>
                   <h4 style={{ color: "#ffffff", marginBottom: ".5rem" }}>Phone</h4>
-                  <p id="contactPhone">+917250153011</p>
+                  <p id="contactPhone">+919430880858</p>
                 </div>
               </div>
 
